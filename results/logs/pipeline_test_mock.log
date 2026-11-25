@@ -1,0 +1,14 @@
+2026-11-25 00:39:03,242 | INFO | Pipeline Test (Item 1.1) — Mock only
+2026-11-25 00:39:03,243 | INFO | MOCK-PROVISIONAL — not a HeMAC measurement
+2026-11-25 00:39:03,243 | INFO | timestamp_utc=2026-11-25T00:39:03.243562+00:00
+2026-11-25 00:39:03,243 | INFO | seed=20261125
+2026-11-25 00:39:03,244 | INFO | n_steps=[10, 50]
+2026-11-25 00:39:03,244 | INFO | running n_steps=10
+2026-11-25 00:39:03,290 | INFO | n_steps=10 n_events=11 n_steps_logged=10
+2026-11-25 00:39:03,290 | INFO | utility={"E": 0.1800000000000921, "E_norm": 0.0018000000000009209, "U": 0.0, "energy_max": 100.0, "energy_min": 0.0, "s": 0.0, "w_e": 0.5, "w_s": 0.5}
+2026-11-25 00:39:03,297 | INFO | events_hash_sha256=066fa8e26d0389875ef62be89c3c9f473f201641504419f923741f1dc2562e22
+2026-11-25 00:39:03,297 | INFO | running n_steps=50
+2026-11-25 00:39:03,331 | INFO | n_steps=50 n_events=51 n_steps_logged=50
+2026-11-25 00:39:03,331 | INFO | utility={"E": 0.9800000000005014, "E_norm": 0.009800000000005013, "U": 0.9950999999999974, "energy_max": 100.0, "energy_min": 0.0, "s": 1.0, "w_e": 0.5, "w_s": 0.5}
+2026-11-25 00:39:03,350 | INFO | events_hash_sha256=a307ead9ec5a9ef5d8eab20eee6581413cd8f9f6eba6b936cca35787828a185b
+2026-11-25 00:39:03,355 | INFO | csv_written=results/tables/pipeline_test_mock.csv

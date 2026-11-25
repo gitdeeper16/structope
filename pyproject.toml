@@ -1,0 +1,95 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structope"
+version = "1.0.0"
+description = "Off-Policy Evaluation under Structural Shift — a pre-registered protocol for auditing OPE estimator rankings in multi-agent systems."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "CC-BY-4.0" }
+authors = [
+    { name = "Samir Baladi", email = "gitdeeper@gmail.com" },
+]
+maintainers = [
+    { name = "Samir Baladi", email = "gitdeeper@gmail.com" },
+]
+keywords = [
+    "off-policy evaluation",
+    "structural shift",
+    "ranking fidelity",
+    "maximum mean discrepancy",
+    "multi-agent systems",
+    "fault injection",
+    "preregistration",
+    "falsification-first",
+    "support and coverage",
+    "pilot-confirmatory separation",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Creative Commons Attribution 4.0 International",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "ruff>=0.1",
+    "mypy>=1.7",
+    "build>=1.0",
+    "twine>=5.0",
+]
+docs = [
+    "sphinx>=7.2",
+    "sphinx-rtd-theme>=2.0",
+]
+
+[project.urls]
+Homepage = "https://structope.netlify.app"
+Repository = "https://github.com/gitdeeper16/structope"
+Documentation = "https://github.com/gitdeeper16/structope#readme"
+Changelog = "https://github.com/gitdeeper16/structope/blob/main/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/gitdeeper16/structope/issues"
+"Zenodo DOI" = "https://doi.org/10.5281/zenodo.24473998"
+"OSF Preregistration" = "https://doi.org/10.17605/OSF.IO/EZJKF"
+"Figshare DOI" = "https://doi.org/10.6084/m9.figshare.35117266"
+
+[project.scripts]
+structope = "structope.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+structope = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --cov=structope --cov-report=term-missing"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true

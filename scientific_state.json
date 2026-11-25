@@ -1,0 +1,23 @@
+{
+  "project": "StructOPE",
+  "version": "1.0.0",
+  "status": "pre-registration (Protocol v1.0) — no experiments run",
+  "phase": "pre-registration",
+  "design_items": {
+    "0.1_utility": "closed",
+    "0.2_baselines": "open (BLOCKING)",
+    "0.3_training_strategy": "closed",
+    "0.4_coverage_metric": "open",
+    "0.5_fault_injection": "open",
+    "0.6_policy_set": "blocked_by_0.2",
+    "0.7_reference_execution": "partial",
+    "0.8_statistical_plan": "open (BLOCKING)"
+  },
+  "implementation": "none",
+  "experiments": "none",
+  "pilot": "not_started",
+  "confirmatory": "not_started",
+  "independent_review": "not_started",
+  "doi": "10.5281/zenodo.24473998",
+  "license": "CC-BY-4.0"
+}

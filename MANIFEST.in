@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include CITATION.cff
+include VERSION
+include manifest.json
+
+recursive-include docs *.md
+
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store
+global-exclude *.bak.*
+global-exclude docs/figures/*.png
+global-exclude docs/paper/*.pdf

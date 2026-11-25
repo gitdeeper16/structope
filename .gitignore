@@ -1,0 +1,36 @@
+# Build artifacts
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Large files (already on Zenodo)
+*.zip
+*.tar.gz
+
+# Backups
+*.bak.*
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets (NEVER commit these)
+upload_*.py
+*_token*
+*.token
+secrets/
+.env.local
+.pypirc

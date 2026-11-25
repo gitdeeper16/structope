@@ -1,0 +1,70 @@
+# ===========================================
+#  StructOPE — Netlify Configuration
+# ===========================================
+# This file configures how Netlify builds and serves the StructOPE site.
+#
+# Repository root: structope/
+# Site files:      PUBLICATION/Netlify/public/
+# Published URL:   https://structope.netlify.app
+# ===========================================
+
+[build]
+  # The folder that contains the files to be served
+  publish = "PUBLICATION/Netlify/public"
+
+  # No build command is needed — the site is static HTML/CSS/JS
+  command = ""
+
+  # Base directory (relative to the repository root)
+  base = ""
+
+# ===========================================
+#  Redirects and rewrites
+# ===========================================
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/paper"
+  to = "/assets/StructOPE_Research_Paper_v1.0.0.pdf"
+  status = 200
+
+[[redirects]]
+  from = "/figures/*"
+  to = "/assets/:splat"
+  status = 200
+
+# ===========================================
+#  Security headers
+# ===========================================
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+# ===========================================
+#  Environment variables (context-specific)
+# ===========================================
+[context.production.environment]
+  TZ = "UTC"
+
+[context.deploy-preview.environment]
+  TZ = "UTC"
+
+[context.branch-deploy.environment]
+  TZ = "UTC"

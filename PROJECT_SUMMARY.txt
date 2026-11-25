@@ -1,0 +1,63 @@
+═══════════════════════════════════════════════════════════════════════════
+  StructOPE v1.0.0 — Project Summary
+═══════════════════════════════════════════════════════════════════════════
+
+  Structural Robustness of Multi-Agent Off-Policy Evaluation
+
+  Version        : 1.0.0 (pre-registration)
+  Date           : 2026-11-23
+  Record ID      : STRUCTOPE-01
+  Author         : Samir Baladi (gitdeeper@gmail.com)
+  ORCID          : 0009-0003-8903-0029
+  License        : CC-BY-4.0
+  DOI            : 10.5281/zenodo.24473998
+  Status         : No experiments run. Pre-registration in progress.
+
+───────────────────────────────────────────────────────────────────────────
+  RESEARCH QUESTION
+───────────────────────────────────────────────────────────────────────────
+
+  Do existing multi-agent OPE methods preserve their ability to rank
+  coordination policies when the team composition or communication
+  structure changes between data collection and evaluation?
+
+───────────────────────────────────────────────────────────────────────────
+  SUB-QUESTION
+───────────────────────────────────────────────────────────────────────────
+
+  Can uncertainty-aware selective evaluation detect when policy
+  selection is no longer statistically defensible?
+
+───────────────────────────────────────────────────────────────────────────
+  DESIGN ITEMS
+───────────────────────────────────────────────────────────────────────────
+
+  0.1  Utility                     ✅ CLOSED
+  0.2  Baselines                   ❌ OPEN (BLOCKING)
+  0.3  Training strategy           ✅ CLOSED
+  0.4  Coverage metric             ❌ OPEN
+  0.5  Fault injection             ❌ OPEN
+  0.6  Policy set                  ⏸ Blocked by 0.2
+  0.7  Reference execution         ⚠️ Partial
+  0.8  Statistical plan            ❌ OPEN (BLOCKING)
+
+───────────────────────────────────────────────────────────────────────────
+  WHAT THIS PROJECT DOES NOT CLAIM
+───────────────────────────────────────────────────────────────────────────
+
+  - That multi-agent OPE fails under structural shift.
+  - That uncertainty-aware selective evaluation improves selection.
+  - That any specific OPE estimator is superior.
+  - That the pilot has produced any result.
+
+───────────────────────────────────────────────────────────────────────────
+  LINKS
+───────────────────────────────────────────────────────────────────────────
+
+  DOI       : https://doi.org/10.5281/zenodo.24473998
+  GitHub    : https://github.com/gitdeeper16/structope
+  ORCID     : https://orcid.org/0009-0003-8903-0029
+
+───────────────────────────────────────────────────────────────────────────
+  "StructOPE is a protocol, not a result."
+═══════════════════════════════════════════════════════════════════════════

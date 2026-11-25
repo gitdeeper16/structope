@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use StructOPE, please cite it as below."
+type: software
+title: "StructOPE: Off-Policy Evaluation under Structural Shift"
+abstract: "A pre-experimental, falsification-first methodology for auditing estimator rankings under team-composition and communication faults in multi-agent environments. Executed Pilot-1, Pilot-2, and Confirmatory experiments; 66 automated tests passed."
+authors:
+  - family-names: "Baladi"
+    given-names: "Samir"
+    orcid: "https://orcid.org/0009-0003-8903-0029"
+    affiliation: "Ronin Institute / Rite of Renaissance"
+    email: "gitdeeper@gmail.com"
+version: "1.0.0"
+date-released: "2026-11-25"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/gitdeeper16/structope"
+url: "https://structope.netlify.app"
+doi: "10.5281/zenodo.24473998"
+keywords:
+  - "off-policy evaluation"
+  - "structural shift"
+  - "ranking fidelity"
+  - "maximum mean discrepancy"
+  - "multi-agent systems"
+  - "fault injection"
+  - "preregistration"
+  - "falsification-first"

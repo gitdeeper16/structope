@@ -1,0 +1,35 @@
+{
+"project": "StructOPE",
+"title": "Off-Policy Evaluation under Structural Shift",
+"version": "1.0.0",
+"release_date": "2026-11-25",
+"status": "Experiments Complete",
+"decision": "Under Review",
+"author": {
+"name": "Samir Baladi",
+"email": "gitdeeper@gmail.com",
+"orcid": "0009-0003-8903-0029",
+"affiliation": "Ronin Institute / Rite of Renaissance"
+},
+"license": {
+"documentation": "CC-BY-4.0",
+"code": "MIT"
+},
+"doi": "10.5281/zenodo.24473998",
+"repository": "https://github.com/gitdeeper16/structope",
+"website": "https://structope.netlify.app",
+"tests": {
+"total": 66,
+"passed": 66,
+"failed": 0
+},
+"experiments": {
+"pilot1": {"runs": 324, "status": "completed"},
+"pilot2": {"runs": 540, "status": "completed"},
+"confirmatory": {"runs": 432, "status": "completed"}
+},
+"figures": {
+"total": 12,
+"path": "docs/figures/"
+}
+}

@@ -1,0 +1,31 @@
+import numpy as np, matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+fig,(ax1,ax2)=plt.subplots(1,2,figsize=(16,9),dpi=240,gridspec_kw={"width_ratios":[1,1.2]})
+fig.patch.set_facecolor("white")
+cm=np.array([[142,18],[23,97]]); lb=["Covered","Not covered"]
+ax1.imshow(cm,cmap="Blues",aspect="auto")
+ax1.set_xticks([0,1]); ax1.set_xticklabels(lb,fontsize=12)
+ax1.set_yticks([0,1]); ax1.set_yticklabels(lb,fontsize=12)
+ax1.set_xlabel("Predicted (MMD-based)",fontsize=13)
+ax1.set_ylabel("Actual (ground truth)",fontsize=13)
+ax1.set_title("(a) Coverage classification",fontsize=13,fontweight="bold")
+for i in range(2):
+    for j in range(2):
+        ax1.text(j,i,str(cm[i,j]),ha="center",va="center",fontsize=20,fontweight="bold",color="white" if cm[i,j]>cm.max()/2 else "black")
+np.random.seed(7)
+mc=np.random.normal(0.045,0.012,160)
+mn=np.random.normal(0.092,0.018,120)
+ax2.hist(mc,bins=25,alpha=0.7,color="#4CAF50",label="Covered (true)")
+ax2.hist(mn,bins=25,alpha=0.7,color="#E53935",label="Not covered (true)")
+ax2.axvline(0.070,color="#2C5F8D",ls="--",lw=2.5,label="MMD threshold = 0.070")
+ax2.set_xlabel("MMD distance (RBF kernel)",fontsize=13)
+ax2.set_ylabel("Count",fontsize=13)
+ax2.set_title("(b) MMD distribution by coverage class",fontsize=13,fontweight="bold")
+ax2.legend(loc="upper right",fontsize=10,framealpha=0.95)
+ax2.grid(True,axis="y",alpha=0.3)
+fig.suptitle("Figure 11 (illustrative): Coverage Classification via MMD",fontsize=15,fontweight="bold",y=0.98)
+plt.tight_layout(rect=[0,0.04,1,0.96])
+plt.savefig("fig11_coverage_classification.png",dpi=240,bbox_inches="tight",facecolor="white")
+plt.close()
+print("Saved: fig11_coverage_classification.png")

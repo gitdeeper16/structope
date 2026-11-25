@@ -1,0 +1,209 @@
+# Thresholds
+
+**Status:** DRAFT (2026-11-23). Values marked PILOT-DEPENDENT are
+fixed during the Pilot stage (Items 1.1–1.3) and frozen at Item 1.3.
+**Date:** 2026-11-23
+**Related:** `preregistration/metrics.md`;
+`preregistration/hypotheses.md`; `design/scenarios.md` §Part C;
+`docs/decisions.md`.
+
+---
+
+## 1. What this file fixes
+
+This file records the numerical thresholds used in the evaluation.
+It distinguishes:
+
+- **Fixed at design level** — already determined.
+- **PILOT-DEPENDENT** — determined during Pilot and frozen at
+  Item 1.3.
+- **Confirmatory-only** — fixed after Pilot, before Confirmatory
+  Evaluation.
+
+No value is chosen on the basis of confirmatory results.
+
+---
+
+## 2. Coverage thresholds (Part A)
+
+| Parameter | Value | Status |
+|---|---|---|
+| ESS normalized threshold | TBD | PILOT-DEPENDENT |
+| Support Overlap threshold | TBD | PILOT-DEPENDENT |
+| Distributional Distance threshold | TBD | PILOT-DEPENDENT |
+| Distance choice (KL / MMD / TV) | MMD (Gaussian RBF) | FIXED 2026-11-25 (see r7_mmd_spec.md) |
+| Epsilon for continuous support | TBD | PILOT-DEPENDENT |
+| Space on which distance is computed | per-agent for B1a/B1b; joint for B2 | Fixed |
+
+**Determined in:** Pilot §Item 1.2 (Pilot Characterization).
+**Frozen at:** Item 1.3 (Preregistration Freeze).
+
+---
+
+## 2a. U2 operational definition (comparison unit for distance)
+
+**Fixed at design level:** U2 — state-conditioned action distributions p(a|s).
+
+Distances are computed between p(a|s) of two policies at matched states. The full specification, including kernel and bandwidth, is in `preregistration/r7_mmd_spec.md` §1 and §3. This section mirrors §1.1 of that file; the two must agree at freeze time (Item 1.3).
+
+### 2a.1 Matched-states definition
+
+For discrete HeMAC state spaces: exact state identity (s_i = s_j).
+
+For continuous or large discrete HeMAC state spaces:
+
+- State space is discretized using a fixed grid defined here, before Pilot-1.
+- The grid resolution is fixed at design time and is not adjusted after seeing Pilot-1 or Pilot-2 data.
+- Two observations are "matched" if they fall in the same grid cell.
+- If HeMAC states are only partially observed, the observed component is used for matching; the hidden component is not imputed.
+
+### 2a.2 Grid resolution (to be filled before Pilot-1)
+
+- HeMAC state space type: [discrete / continuous / mixed]
+- If discrete: number of states and identity mapping recorded here.
+- If continuous: grid resolution per dimension recorded here.
+- If mixed: per-dimension type and resolution recorded here.
+
+**Status of §2a.2:** PENDING — filled when HeMAC inventory is available, before Pilot-1 starts. The grid is not inferred from Pilot-1 data.
+
+### 2a.3 Rejected units
+
+- U1 (policy distributions): rejected — couples policy with the state distribution it happens to visit.
+- U3 (state-action visitation): rejected — mixes coverage with visitation frequency.
+
+## 3. Ranking-fidelity parameters (Part B.2)
+
+| Parameter | Value | Status |
+|---|---|---|
+| k in Top-k accuracy | TBD | PILOT-DEPENDENT |
+| Bootstrap resamples | TBD | PILOT-DEPENDENT |
+| Bootstrap type | hierarchical (seeds, then repeats) | Fixed |
+| Confidence level | TBD | PILOT-DEPENDENT |
+
+**Determined in:** Pilot §Item 1.2.
+**Frozen at:** Item 1.3.
+
+---
+
+## 4. Selection-regret parameters (Part B.3)
+
+| Parameter | Value | Status |
+|---|---|---|
+| Regret_eligible definition | Best_B4(Eligible) - Selected_OPE | Fixed |
+| Regret_full definition | Best_B4(All) - Selected_OPE | Fixed |
+| Effect-size threshold for regret | TBD | PILOT-DEPENDENT |
+
+**Determined in:** Pilot §Item 1.2.
+**Frozen at:** Item 1.3.
+
+---
+
+## 5. Execution parameters (Part C)
+
+| Parameter | Value | Status |
+|---|---|---|
+| Seeds per (policy, scenario) cell (pilot) | ≥ 2 | Fixed (target) |
+| Repeats per (policy, scenario, seed) cell (pilot) | ≥ 5 | Fixed (target) |
+| Seeds per cell (confirmatory) | TBD | PILOT-DEPENDENT |
+| Repeats per (policy, scenario, seed) cell (confirmatory) | TBD | PILOT-DEPENDENT |
+| 80% separability threshold | provisional | Fixed (operational) |
+
+**Determined in:** Pilot §Item 1.2.
+**Frozen at:** Item 1.3 (except 80% separability, which remains
+provisional).
+
+---
+
+## 6. Statistical correction (Part B.6)
+
+| Regime | Correction | Status |
+|---|---|---|
+| Confirmatory | Bonferroni | Fixed |
+| Exploratory / Pilot | Benjamini-Hochberg (FDR) | Fixed |
+| Family size (confirmatory) | TBD | PILOT-DEPENDENT |
+
+**Determined in:** Item 1.3, after the confirmatory family is
+enumerated.
+**Frozen at:** Item 1.3.
+
+---
+
+## 7. Policy set parameters (design/policy_set.md)
+
+| Parameter | Value | Status |
+|---|---|---|
+| Total policies (template) | 8 | Fixed |
+| Total policies (final) | 8–12 | PILOT-DEPENDENT |
+| Baseline Utility Range threshold | > 0.01 | Provisional |
+| Behavioral signature definition | TBD | PILOT-DEPENDENT |
+
+**Determined in:** HeMAC inventory + Pilot §Item 1.2.
+**Frozen at:** Item 1.3.
+
+---
+
+## 8. What Pilot determines, specifically
+
+The Pilot stage is responsible for fixing:
+
+1. Coverage thresholds (ESS, Support Overlap, Distributional
+   Distance) and distance choice.
+2. Top-k value (k).
+3. Bootstrap resamples and confidence level.
+4. Effect-size threshold for selection regret.
+5. Seeds and repeats per cell for confirmatory evaluation.
+6. Final policy count (8–12) and behavioral signature.
+7. Confirmatory family size.
+
+Pilot does **not** determine:
+
+- The baselines (fixed in `design/baselines.md`).
+- The policy archetypes (fixed in `design/policy_set.md`).
+- The hypotheses (fixed in `preregistration/hypotheses.md`).
+- The metrics (fixed in `preregistration/metrics.md`).
+
+---
+
+## 9. What Confirmatory Evaluation sees
+
+Confirmatory Evaluation sees:
+
+- Fixed coverage thresholds.
+- Fixed k, bootstrap settings, confidence level.
+- Fixed effect-size threshold.
+- Fixed seeds/repeats.
+- Fixed policy list with fingerprints.
+- Fixed confirmatory family.
+
+Confirmatory Evaluation does **not** see:
+
+- Pilot results as part of the analysis.
+- Thresholds adjusted after results.
+- Policies added or removed based on results.
+
+---
+
+## 10. Non-claims
+
+- This file does not fix any threshold before Pilot.
+- This file does not allow thresholds to be adjusted after
+  confirmatory results are seen.
+- This file does not use Pilot data in confirmatory evaluation.
+- This file does not claim that Pilot results validate OPE; Pilot
+  only characterizes the pipeline.
+
+---
+
+## 11. Decision record — preregistration thresholds
+
+**Status:** DRAFT.
+
+- Date: 2026-11-23
+- Pilot stage: Items 1.1–1.3
+- Freeze point: Item 1.3
+- Values fixed at design level: distance space (per-agent vs joint),
+  bootstrap type (hierarchical), statistical correction
+  (Bonferroni / BH), Regret definitions.
+- Values PILOT-DEPENDENT: all others listed above.
+- Preregistration impact: no threshold enters Confirmatory
+  Evaluation until Item 1.3 is signed off.

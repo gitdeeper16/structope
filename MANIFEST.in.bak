@@ -1,0 +1,19 @@
+include README.md
+include LICENSE
+include CITATION.cff
+include VERSION
+include manifest.json
+include OSF_REGISTRATION.md
+include netlify.toml
+
+recursive-include docs/paper *.pdf
+recursive-include docs/figures *.png
+recursive-include docs *.md
+
+recursive-include tests *.py
+recursive-include examples *.py
+
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store
+global-exclude *.bak.*

@@ -1,0 +1,143 @@
+# Decision log
+
+- 2026-11-23: Project named StructOPE.
+- 2026-11-23: Claim narrowed from "World Model reliability" to
+  "OPE ranking validity under structural shift".
+- 2026-11-23: Protocol v1.0 approved for drafting; no experiments
+  until pre-registration is complete.
+- 2026-11-23: Utility function decided (Item 0.1).
+  Components: Task Completion Ratio + Energy (Quadcopters only).
+  Form: Completion-gated linear, w_s = w_e = 0.5.
+  Energy: simulated charge consumption in movement updates; not
+  physical energy. Normalization: baseline range without clipping.
+  Regret denominator: fixed baseline range.
+  Evidence: design/utility.md.
+
+- 2026-11-23: Item 0.3 closed (Training Strategy).
+  Strategy: Baseline-only training (T0/C0), held-out shifts at
+  evaluation. Hyperparameter tuning may use pilot shift data,
+  documented and isolated. At least one full (T_k, C_l) cell must be
+  withheld from all prior stages. Interpretation: OPE generalization
+  across structural shift, not classical OPE validity.
+  Evidence: design/scenarios.md §Part A.
+
+- 2026-11-23: Item 0.2 closed (Baselines) + Item 0.2a closed (Reward scope in B1).
+  B1a: local reward, sensitivity analysis, conditional on meaningful local reward in HeMAC.
+  B1b: shared reward, sensitivity analysis, retained without local-performance claim.
+  B2: centralized joint, shared reward, primary.
+  B3a: policy-conditioned model-based, primary.
+  B3b: multi-agent world model, secondary, conditional on methodological distinctness from B3a.
+  B4: direct simulator evaluation, reference, reported with uncertainty.
+  AAMAS 2021: theoretical reference only.
+  Evidence: design/baselines.md.
+
+- 2026-11-23: Item 0.2 closed (Baselines) + Item 0.2a closed (Reward scope in B1).
+  B1a: local reward, sensitivity analysis, conditional on meaningful local reward in HeMAC.
+  B1b: shared reward, sensitivity analysis, retained without local-performance claim.
+  B2: centralized joint, shared reward, primary.
+  B3a: policy-conditioned model-based, primary.
+  B3b: multi-agent world model, secondary, conditional on methodological distinctness from B3a.
+  B4: direct simulator evaluation, reference, reported with uncertainty.
+  AAMAS 2021: theoretical reference only.
+  Evidence: design/baselines.md.
+
+- 2026-11-23: Item 0.6 closed at design level (Policy Set).
+  Source: hybrid (HeMAC existing + generated). Count: 8 template
+  (final within 8-12). Diversity: Random + Rule-based + Trained +
+  Degraded. Mandatory references: Random, Strong Coordinated Team,
+  Single/Partial Team. Optional: No-op (diagnostic). Usage: Full
+  Set primary, Reduced Set (3-4) for Pilot only. Pre-conditions for
+  freezing: policy identity (fingerprint), behavioral diversity
+  (pre-registered signature), baseline separability (> 0.01).
+  Final list pending HeMAC inventory.
+  Evidence: design/policy_set.md.
+
+- 2026-11-23: Item 0.4 closed at design level (Coverage Metric).
+  Three independent dimensions: ESS, Support Overlap, Distributional
+  Distance — not combined. Two axes: Behavioral Coverage, Structural
+  Coverage — reported separately. Thresholds PILOT-DEPENDENT.
+  Coverage classifies and interprets, does not exclude cells.
+  Distance choice not fixed; recorded before confirmatory experiments.
+  Evidence: preregistration/metrics.md Part A.
+
+- 2026-11-23: Item 0.8 closed at design level (Statistical Plan).
+  Ranking fidelity: Spearman's rho + Kendall's tau + Top-k (k
+  PILOT-DEPENDENT). Selection regret: Regret_eligible
+  (coverage-conditioned, primary) and Regret_full (full-set,
+  secondary). Rank-ambiguous policies: excluded from ranking metrics,
+  retained in regret, reported separately. Multiple comparisons:
+  Bonferroni confirmatory, Benjamini-Hochberg exploratory.
+  Eligibility rules fixed before confirmatory evaluation;
+  no-eligible-policy and ineligible-selection cases reported, not
+  excluded.
+  Evidence: preregistration/metrics.md Part B.
+
+- 2026-11-23: Item 0.7 closed (Reference Execution Protocol).
+  Seeds and repeats separated: seeds measure between-seed variance,
+  repeats measure within-scenario variance. Unit of experiment is
+  (policy, scenario, seed, repeat_id). Pairwise utility difference
+  CI replaces individual policy intervals. Hierarchical bootstrap
+  (seeds, then repeats) used. 80% separability is a provisional
+  operational acceptance criterion, not a statistical fact. All
+  PILOT-DEPENDENT quantities recorded in preregistration/thresholds.md.
+  Evidence: design/scenarios.md Part C.
+
+- 2026-11-25: Item 0.1 closed (Utility Function).
+  Components: Task Completion Ratio s(π), Normalized Energy
+  Consumption E_norm(π). Functional form: success-gated linear,
+  U(π) = s(π) · [w_s + w_e · (1 − E_norm(π))]. Weights: w_s = 0.5,
+  w_e = 0.5 (primary); W_success (0.75/0.25) and W_energy
+  (0.25/0.75) preregistered as secondary. Normalization range
+  PILOT-DEPENDENT, recorded in preregistration/thresholds.md.
+  Uncertainty register recorded in design/utility.md §8.
+  Evidence: design/utility.md.
+
+- 2026-11-25: Item 1.0 added to checklist (Pipeline Integration
+  Test). CLOSED. The four core components were shown to integrate
+  end-to-end on MockAdapter. 66 tests pass total. CSV and LOG
+  consistency verified. Boundaries: Mock only, not a HeMAC
+  measurement, not evidence of OPE validity, not used to update
+  scientific thresholds. Fault Injection (Item 0.5) not exercised.
+  Evidence: experiments/phase1_baseline/pipeline_test.py,
+  tests/test_pipeline_test.py, results/tables/pipeline_test_mock.csv,
+  results/logs/pipeline_test_mock.log.
+
+- 2026-11-25: Item 1.1 (Pilot Scope) FROZEN.
+  Scenarios: 6 (S1-S6). Policies: 6 (P_RAND, P_RULE_A, P_SINGLE,
+  P_TRAIN_H, P_TRAIN_M, P_DEGRADED). P_SINGLE replaces P_RULE_B
+  as the mandatory partial-team reference. Seeds: 3 (seed_a=20261125,
+  seed_b=20261126, seed_c=20261127). Pilot-1: 3 seeds x 3 repeats
+  per (policy, scenario) = 324 runs (revised from 216). Pilot-2:
+  3 seeds x 5 repeats = 540 runs (design target, not binding).
+  C3 and C4 excluded from Pilot, reserved for Confirmatory.
+  Seeds are independent levels; repeats are measurements within
+  each seed; hierarchical bootstrap required. No Mock result is
+  used to calibrate thresholds. Freeze rule: no scope change
+  after this date without documented amendment and new version.
+  Evidence: preregistration/pilot_scope.md.
+
+- 2026-11-25: ROADMAP.md rewritten to reflect current state.
+  Design items 0.1-0.8 complete (except 0.5). Pilot items 1.0
+  CLOSED, 1.1 FROZEN, 1.2/1.3 waiting. Infrastructure complete
+  (66 tests). Open questions recorded: HeMAC availability, Mock
+  vs HeMAC boundary, Item 0.5 status.
+  Evidence: ROADMAP.md.
+
+- 2026-11-25: ROADMAP.md rewritten to reflect current state.
+  Design items 0.1-0.8 complete (except 0.5). Pilot items 1.0
+  CLOSED, 1.1 FROZEN, 1.2/1.3 waiting. Infrastructure complete
+  (66 tests). Open questions recorded: HeMAC availability, Mock
+  vs HeMAC boundary, Item 0.5 status.
+  Evidence: ROADMAP.md.
+
+- 2026-11-25: Item 1.2 (Threshold Calibration) DRAFT prepared.
+  Decision status in design/checklist.md corrected from FROZEN to
+  DRAFT. Summary table row updated to DRAFT and reference updated
+  to preregistration/threshold_calibration.md. Calibration
+  procedure defined for ESS, Support Overlap, Distributional
+  Distance, k, ε, τ_min. Provisional values ε=0.05, τ_min=0.70,
+  k=3 (not scientific claims). Transition condition T1-T5 fixed
+  before Pilot-2. Mock/HeMAC boundary: no Mock result used to
+  calibrate thresholds. Freeze condition: Item 1.3. DRAFT status:
+  needs independent review before Pilot-1.
+  Evidence: preregistration/threshold_calibration.md.
