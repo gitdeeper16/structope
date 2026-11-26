@@ -1,0 +1,3242 @@
+[
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      658,
+      606
+    ],
+    "dist_start": 208.4346420343797,
+    "dist_end": 117.53426826084997,
+    "dist_change": -90.90037377352972
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      708,
+      382
+    ],
+    "dist_start": 613.6000325945232,
+    "dist_end": 598.0468081709573,
+    "dist_change": -15.553224423565894
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      305,
+      609
+    ],
+    "dist_start": 198.600100704909,
+    "dist_end": 174.2725915028219,
+    "dist_change": -24.3275092020871
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      465,
+      200
+    ],
+    "dist_start": 365.4216742340279,
+    "dist_end": 263.5963495300313,
+    "dist_change": -101.82532470399656
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": 0.0,
+    "steps": 300,
+    "goal_pos": [
+      544,
+      490
+    ],
+    "dist_start": 102.41581909060729,
+    "dist_end": 118.35796611638852,
+    "dist_change": 15.942147025781239
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      775,
+      560
+    ],
+    "dist_start": 441.16323509558225,
+    "dist_end": 446.38048300402755,
+    "dist_change": 5.217247908445302
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      583,
+      409
+    ],
+    "dist_start": 400.7617746242773,
+    "dist_end": 413.58795487108995,
+    "dist_change": 12.826180246812669
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      382,
+      851
+    ],
+    "dist_start": 357.82118439242805,
+    "dist_end": 268.76335539198976,
+    "dist_change": -89.05782900043829
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      362,
+      448
+    ],
+    "dist_start": 178.61690849412886,
+    "dist_end": 67.64406872714166,
+    "dist_change": -110.9728397669872
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      681,
+      895
+    ],
+    "dist_start": 210.34257771549724,
+    "dist_end": 243.9928257888805,
+    "dist_change": 33.65024807338327
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      162,
+      363
+    ],
+    "dist_start": 287.2107240337658,
+    "dist_end": 382.7480800290847,
+    "dist_change": 95.53735599531888
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      824,
+      187
+    ],
+    "dist_start": 627.4081606099812,
+    "dist_end": 628.9961590106187,
+    "dist_change": 1.5879984006375025
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      795,
+      528
+    ],
+    "dist_start": 370.20669902096586,
+    "dist_end": 398.80929603717277,
+    "dist_change": 28.602597016206914
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      813,
+      787
+    ],
+    "dist_start": 623.7772038155931,
+    "dist_end": 577.8757941794041,
+    "dist_change": -45.90140963618899
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      869,
+      154
+    ],
+    "dist_start": 113.75851616472501,
+    "dist_end": 114.89585590117547,
+    "dist_change": 1.137339736450457
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      420,
+      237
+    ],
+    "dist_start": 172.3629890666787,
+    "dist_end": 282.5708384210449,
+    "dist_change": 110.20784935436623
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      701,
+      889
+    ],
+    "dist_start": 783.781857406766,
+    "dist_end": 724.9917280938637,
+    "dist_change": -58.79012931290231
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      754,
+      864
+    ],
+    "dist_start": 472.6489183315667,
+    "dist_end": 468.1824305031284,
+    "dist_change": -4.466487828438289
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      253,
+      409
+    ],
+    "dist_start": 229.44498251214821,
+    "dist_end": 313.1905702929609,
+    "dist_change": 83.74558778081268
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": 0.0,
+    "steps": 300,
+    "goal_pos": [
+      640,
+      167
+    ],
+    "dist_start": 526.5216044950103,
+    "dist_end": 354.77805990450855,
+    "dist_change": -171.7435445905017
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": 0.0,
+    "steps": 300,
+    "goal_pos": [
+      159,
+      235
+    ],
+    "dist_start": 593.4854673873658,
+    "dist_end": 541.1619107888877,
+    "dist_change": -52.32355659847815
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      562,
+      757
+    ],
+    "dist_start": 589.2987357868673,
+    "dist_end": 661.9808576097641,
+    "dist_change": 72.68212182289687
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": 0.0,
+    "steps": 300,
+    "goal_pos": [
+      450,
+      261
+    ],
+    "dist_start": 111.0,
+    "dist_end": 181.69457600641593,
+    "dist_change": 70.69457600641593
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": 0.0,
+    "steps": 300,
+    "goal_pos": [
+      598,
+      887
+    ],
+    "dist_start": 664.6961711940276,
+    "dist_end": 658.4063069187174,
+    "dist_change": -6.289864275310151
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": 0.0,
+    "steps": 300,
+    "goal_pos": [
+      718,
+      586
+    ],
+    "dist_start": 292.7968579066381,
+    "dist_end": 471.0122590705115,
+    "dist_change": 178.21540116387342
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      581,
+      421
+    ],
+    "dist_start": 229.94129685639334,
+    "dist_end": 250.21276061818074,
+    "dist_change": 20.271463761787402
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      210,
+      753
+    ],
+    "dist_start": 125.4830665866913,
+    "dist_end": 161.37752566647197,
+    "dist_change": 35.894459079780674
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": 0.0,
+    "steps": 300,
+    "goal_pos": [
+      769,
+      550
+    ],
+    "dist_start": 109.16501271011697,
+    "dist_end": 222.95631611841281,
+    "dist_change": 113.79130340829585
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      570,
+      483
+    ],
+    "dist_start": 260.2498799231231,
+    "dist_end": 260.44784136995077,
+    "dist_change": 0.19796144682766226
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      416,
+      168
+    ],
+    "dist_start": 583.9452029086291,
+    "dist_end": 607.5733230576471,
+    "dist_change": 23.62812014901806
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      875,
+      147
+    ],
+    "dist_start": 646.6219915839547,
+    "dist_end": 641.1308106549433,
+    "dist_change": -5.491180929011421
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      786,
+      790
+    ],
+    "dist_start": 257.5732905407702,
+    "dist_end": 235.90610871213448,
+    "dist_change": -21.667181828635705
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      278,
+      462
+    ],
+    "dist_start": 235.84740829612693,
+    "dist_end": 180.59034469205181,
+    "dist_change": -55.257063604075114
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      405,
+      694
+    ],
+    "dist_start": 548.0,
+    "dist_end": 434.1138837467081,
+    "dist_change": -113.8861162532919
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      707,
+      571
+    ],
+    "dist_start": 424.01886750473733,
+    "dist_end": 423.1922857235655,
+    "dist_change": -0.8265817811718534
+  },
+  {
+    "scenario": "S1_1q1o",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      363,
+      743
+    ],
+    "dist_start": 156.24659996300718,
+    "dist_end": 134.00613283845834,
+    "dist_change": -22.240467124548843
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      711,
+      623
+    ],
+    "dist_start": 439.8920322079044,
+    "dist_end": 435.05092678483174,
+    "dist_change": -4.841105423072634
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": 20.0,
+    "steps": 300,
+    "goal_pos": [
+      446,
+      334
+    ],
+    "dist_start": 145.9931505242626,
+    "dist_end": 97.78176046498268,
+    "dist_change": -48.21139005927992
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      593,
+      409
+    ],
+    "dist_start": 521.7911459578439,
+    "dist_end": 482.7384128315475,
+    "dist_change": -39.0527331262964
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      670,
+      623
+    ],
+    "dist_start": 385.7797298977747,
+    "dist_end": 395.6661331412259,
+    "dist_change": 9.886403243451184
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      268,
+      144
+    ],
+    "dist_start": 483.98760314702275,
+    "dist_end": 534.6888102704104,
+    "dist_change": 50.70120712338763
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      820,
+      269
+    ],
+    "dist_start": 749.7546265279061,
+    "dist_end": 593.7021068602378,
+    "dist_change": -156.05251966766832
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      156,
+      123
+    ],
+    "dist_start": 268.92378102354576,
+    "dist_end": 310.0658193107769,
+    "dist_change": 41.14203828723112
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      689,
+      869
+    ],
+    "dist_start": 748.5753135122744,
+    "dist_end": 825.5186667371769,
+    "dist_change": 76.94335322490247
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      371,
+      398
+    ],
+    "dist_start": 536.4363895188319,
+    "dist_end": 538.1686320705271,
+    "dist_change": 1.732242551695208
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      584,
+      118
+    ],
+    "dist_start": 649.5667787071626,
+    "dist_end": 605.7017221859675,
+    "dist_change": -43.86505652119513
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": 20.0,
+    "steps": 300,
+    "goal_pos": [
+      602,
+      363
+    ],
+    "dist_start": 460.7222590672172,
+    "dist_end": 399.01317735740656,
+    "dist_change": -61.70908170981062
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      243,
+      300
+    ],
+    "dist_start": 673.0601756158211,
+    "dist_end": 629.6603166143512,
+    "dist_change": -43.39985900146985
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": 20.0,
+    "steps": 300,
+    "goal_pos": [
+      563,
+      893
+    ],
+    "dist_start": 389.23643200502187,
+    "dist_end": 351.16188487013164,
+    "dist_change": -38.074547134890224
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      363,
+      551
+    ],
+    "dist_start": 353.0693982774491,
+    "dist_end": 372.53137761273047,
+    "dist_change": 19.46197933528134
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      236,
+      543
+    ],
+    "dist_start": 692.5662423191012,
+    "dist_end": 641.3558179332922,
+    "dist_change": -51.210424385809006
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": 20.0,
+    "steps": 300,
+    "goal_pos": [
+      110,
+      596
+    ],
+    "dist_start": 311.0064308016797,
+    "dist_end": 324.3325505672118,
+    "dist_change": 13.326119765532098
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      453,
+      429
+    ],
+    "dist_start": 471.80716399817413,
+    "dist_end": 467.203385613807,
+    "dist_change": -4.6037783843671605
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      652,
+      129
+    ],
+    "dist_start": 356.20218977429096,
+    "dist_end": 410.80772081259295,
+    "dist_change": 54.60553103830199
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      421,
+      818
+    ],
+    "dist_start": 417.40388115109806,
+    "dist_end": 418.076232996758,
+    "dist_change": 0.6723518456599322
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      531,
+      474
+    ],
+    "dist_start": 382.6878623630491,
+    "dist_end": 365.4029671436644,
+    "dist_change": -17.28489521938468
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      237,
+      562
+    ],
+    "dist_start": 117.63077828527702,
+    "dist_end": 130.9672972506485,
+    "dist_change": 13.336518965371482
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": 120.0,
+    "steps": 300,
+    "goal_pos": [
+      232,
+      331
+    ],
+    "dist_start": 557.2333443002133,
+    "dist_end": 566.4817051067865,
+    "dist_change": 9.24836080657326
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      325,
+      184
+    ],
+    "dist_start": 260.2325882744127,
+    "dist_end": 269.34919234451445,
+    "dist_change": 9.116604070101744
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      478,
+      141
+    ],
+    "dist_start": 280.87897749742683,
+    "dist_end": 319.50824096114553,
+    "dist_change": 38.6292634637187
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      264,
+      225
+    ],
+    "dist_start": 604.3351719038037,
+    "dist_end": 611.8275869462653,
+    "dist_change": 7.49241504246163
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": 30.0,
+    "steps": 300,
+    "goal_pos": [
+      282,
+      581
+    ],
+    "dist_start": 229.0,
+    "dist_end": 148.27693608058004,
+    "dist_change": -80.72306391941996
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": 30.0,
+    "steps": 300,
+    "goal_pos": [
+      242,
+      846
+    ],
+    "dist_start": 769.4530524989813,
+    "dist_end": 772.8551417945706,
+    "dist_change": 3.4020892955893487
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      104,
+      349
+    ],
+    "dist_start": 477.7970280359642,
+    "dist_end": 438.6362541750981,
+    "dist_change": -39.16077386086613
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      364,
+      373
+    ],
+    "dist_start": 446.031389029965,
+    "dist_end": 447.7603920886726,
+    "dist_change": 1.7290030587075762
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      212,
+      106
+    ],
+    "dist_start": 710.8705930055062,
+    "dist_end": 756.023295096575,
+    "dist_change": 45.15270209106882
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      630,
+      561
+    ],
+    "dist_start": 448.65354116511776,
+    "dist_end": 455.7286685439041,
+    "dist_change": 7.075127378786362
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      318,
+      640
+    ],
+    "dist_start": 475.6059293154365,
+    "dist_end": 454.3490029908464,
+    "dist_change": -21.256926324590154
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": 20.0,
+    "steps": 300,
+    "goal_pos": [
+      103,
+      154
+    ],
+    "dist_start": 678.0538326711236,
+    "dist_end": 720.9020997317109,
+    "dist_change": 42.84826706058732
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      397,
+      402
+    ],
+    "dist_start": 214.39449619801343,
+    "dist_end": 310.9065668681176,
+    "dist_change": 96.51207067010415
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      457,
+      302
+    ],
+    "dist_start": 208.85641000457707,
+    "dist_end": 291.16540829122965,
+    "dist_change": 82.30899828665258
+  },
+  {
+    "scenario": "S2_3q1o",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      409,
+      790
+    ],
+    "dist_start": 160.61133210331082,
+    "dist_end": 179.27600812591183,
+    "dist_change": 18.664676022601014
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      820,
+      339
+    ],
+    "dist_start": 198.01262586006985,
+    "dist_end": 238.1722018227144,
+    "dist_change": 40.15957596264457
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      182,
+      167
+    ],
+    "dist_start": 631.534638796638,
+    "dist_end": 646.4139986968896,
+    "dist_change": 14.879359900251643
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      210,
+      274
+    ],
+    "dist_start": 132.1854757528224,
+    "dist_end": 96.34819888474635,
+    "dist_change": -35.83727686807606
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": 30.0,
+    "steps": 300,
+    "goal_pos": [
+      538,
+      248
+    ],
+    "dist_start": 250.42763425788297,
+    "dist_end": 203.183942249841,
+    "dist_change": -47.24369200804196
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      714,
+      441
+    ],
+    "dist_start": 500.1059887663814,
+    "dist_end": 605.6840885717071,
+    "dist_change": 105.57809980532568
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      883,
+      411
+    ],
+    "dist_start": 417.45179362412614,
+    "dist_end": 381.75162157865736,
+    "dist_change": -35.700172045468776
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      568,
+      760
+    ],
+    "dist_start": 191.98176996788,
+    "dist_end": 150.09681818332655,
+    "dist_change": -41.884951784553465
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      793,
+      496
+    ],
+    "dist_start": 233.8482413874434,
+    "dist_end": 249.05153220760138,
+    "dist_change": 15.203290820157974
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      870,
+      507
+    ],
+    "dist_start": 132.43866504914644,
+    "dist_end": 55.08888034658545,
+    "dist_change": -77.34978470256098
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      359,
+      301
+    ],
+    "dist_start": 241.77055238386663,
+    "dist_end": 170.39099097961147,
+    "dist_change": -71.37956140425516
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      409,
+      253
+    ],
+    "dist_start": 599.6082054141688,
+    "dist_end": 593.627340078149,
+    "dist_change": -5.980865336019747
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      708,
+      398
+    ],
+    "dist_start": 236.78260071213003,
+    "dist_end": 246.05527138113885,
+    "dist_change": 9.272670669008818
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      610,
+      406
+    ],
+    "dist_start": 205.20477577288497,
+    "dist_end": 285.4462734726562,
+    "dist_change": 80.2414976997712
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": 30.0,
+    "steps": 300,
+    "goal_pos": [
+      495,
+      261
+    ],
+    "dist_start": 30.083217912982647,
+    "dist_end": 28.725316315857974,
+    "dist_change": -1.3579015971246733
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      498,
+      617
+    ],
+    "dist_start": 593.2705959340982,
+    "dist_end": 641.3205579288777,
+    "dist_change": 48.04996199477955
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      869,
+      196
+    ],
+    "dist_start": 723.4092894067645,
+    "dist_end": 713.7472412157226,
+    "dist_change": -9.66204819104189
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      640,
+      506
+    ],
+    "dist_start": 459.1317893590031,
+    "dist_end": 462.39472906955336,
+    "dist_change": 3.2629397105502562
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      185,
+      729
+    ],
+    "dist_start": 688.8396039717809,
+    "dist_end": 722.2333238878671,
+    "dist_change": 33.393719916086184
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      386,
+      553
+    ],
+    "dist_start": 223.0807028857494,
+    "dist_end": 223.52377626528792,
+    "dist_change": 0.4430733795385322
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      303,
+      630
+    ],
+    "dist_start": 548.9672121356612,
+    "dist_end": 529.9840370864007,
+    "dist_change": -18.983175049260467
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      554,
+      415
+    ],
+    "dist_start": 168.13387523042465,
+    "dist_end": 167.17744075065903,
+    "dist_change": -0.956434479765619
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": 20.0,
+    "steps": 300,
+    "goal_pos": [
+      230,
+      105
+    ],
+    "dist_start": 361.62134892729995,
+    "dist_end": 373.53716619385636,
+    "dist_change": 11.915817266556417
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      409,
+      793
+    ],
+    "dist_start": 790.2657780772238,
+    "dist_end": 818.1454130890459,
+    "dist_change": 27.879635011822074
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": 30.0,
+    "steps": 300,
+    "goal_pos": [
+      271,
+      709
+    ],
+    "dist_start": 379.6801285292661,
+    "dist_end": 420.56164089052913,
+    "dist_change": 40.88151236126305
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      495,
+      776
+    ],
+    "dist_start": 628.0676715131897,
+    "dist_end": 695.3346992012582,
+    "dist_change": 67.26702768806854
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      659,
+      782
+    ],
+    "dist_start": 311.4369920224635,
+    "dist_end": 362.16102539715604,
+    "dist_change": 50.72403337469251
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": 30.0,
+    "steps": 300,
+    "goal_pos": [
+      573,
+      741
+    ],
+    "dist_start": 409.3714694504247,
+    "dist_end": 194.64517511415718,
+    "dist_change": -214.7262943362675
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      565,
+      816
+    ],
+    "dist_start": 357.179226719584,
+    "dist_end": 367.53436034371094,
+    "dist_change": 10.35513362412695
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      816,
+      225
+    ],
+    "dist_start": 703.3157185787902,
+    "dist_end": 753.3284802834117,
+    "dist_change": 50.01276170462154
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      110,
+      181
+    ],
+    "dist_start": 225.22211259110415,
+    "dist_end": 223.2614564383589,
+    "dist_change": -1.9606561527452584
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      820,
+      328
+    ],
+    "dist_start": 708.6959855960805,
+    "dist_end": 611.8587232483142,
+    "dist_change": -96.83726234776634
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      857,
+      692
+    ],
+    "dist_start": 454.80215478821117,
+    "dist_end": 454.1619398380854,
+    "dist_change": -0.6402149501257668
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      866,
+      606
+    ],
+    "dist_start": 696.0208330215411,
+    "dist_end": 642.0484560986519,
+    "dist_change": -53.972376922889225
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      747,
+      542
+    ],
+    "dist_start": 339.05309318748294,
+    "dist_end": 284.24529554756,
+    "dist_change": -54.80779763992297
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": 30.0,
+    "steps": 300,
+    "goal_pos": [
+      494,
+      508
+    ],
+    "dist_start": 487.01642682767897,
+    "dist_end": 442.4670565590271,
+    "dist_change": -44.54937026865184
+  },
+  {
+    "scenario": "S3_3q1o_obst",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      133,
+      750
+    ],
+    "dist_start": 717.7917525299382,
+    "dist_end": 757.3499758926912,
+    "dist_change": 39.55822336275298
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      282,
+      724
+    ],
+    "dist_start": 196.3517252279694,
+    "dist_end": 202.46146572758295,
+    "dist_change": 6.109740499613537
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -30.0,
+    "steps": 300,
+    "goal_pos": [
+      296,
+      158
+    ],
+    "dist_start": 899.4359343499681,
+    "dist_end": 912.5075631588745,
+    "dist_change": 13.07162880890644
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": 250.0,
+    "steps": 300,
+    "goal_pos": [
+      193,
+      585
+    ],
+    "dist_start": 71.17583859709698,
+    "dist_end": 82.85036422962986,
+    "dist_change": 11.674525632532877
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      169,
+      191
+    ],
+    "dist_start": 669.7947446792936,
+    "dist_end": 642.8286108490672,
+    "dist_change": -26.96613383022634
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": 120.0,
+    "steps": 300,
+    "goal_pos": [
+      354,
+      813
+    ],
+    "dist_start": 672.2172267950294,
+    "dist_end": 697.294328348094,
+    "dist_change": 25.077101553064608
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": 240.0,
+    "steps": 300,
+    "goal_pos": [
+      189,
+      494
+    ],
+    "dist_start": 354.5151618760473,
+    "dist_end": 463.52531592359355,
+    "dist_change": 109.01015404754628
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      526,
+      768
+    ],
+    "dist_start": 521.7221482743473,
+    "dist_end": 540.609236556059,
+    "dist_change": 18.887088281711726
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      150,
+      820
+    ],
+    "dist_start": 648.2568935229305,
+    "dist_end": 554.5332113711879,
+    "dist_change": -93.72368215174254
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      111,
+      227
+    ],
+    "dist_start": 301.10629352439645,
+    "dist_end": 284.8622427258951,
+    "dist_change": -16.24405079850135
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      728,
+      829
+    ],
+    "dist_start": 623.407571336762,
+    "dist_end": 627.6929109807169,
+    "dist_change": 4.285339643954899
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": 110.0,
+    "steps": 300,
+    "goal_pos": [
+      353,
+      276
+    ],
+    "dist_start": 131.30879635424276,
+    "dist_end": 125.96176303179153,
+    "dist_change": -5.3470333224512245
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": 120.0,
+    "steps": 300,
+    "goal_pos": [
+      219,
+      264
+    ],
+    "dist_start": 334.7730574583325,
+    "dist_end": 371.08759688332464,
+    "dist_change": 36.31453942499212
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      565,
+      733
+    ],
+    "dist_start": 349.7570585420686,
+    "dist_end": 349.60390918265324,
+    "dist_change": -0.15314935941535168
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": 250.0,
+    "steps": 300,
+    "goal_pos": [
+      297,
+      309
+    ],
+    "dist_start": 349.51537877466853,
+    "dist_end": 337.18277090589436,
+    "dist_change": -12.332607868774176
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      225,
+      764
+    ],
+    "dist_start": 506.8589547398763,
+    "dist_end": 501.42739845210696,
+    "dist_change": -5.431556287769354
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": 120.0,
+    "steps": 300,
+    "goal_pos": [
+      600,
+      646
+    ],
+    "dist_start": 369.31422934947955,
+    "dist_end": 391.0037794885354,
+    "dist_change": 21.689550139055825
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      492,
+      760
+    ],
+    "dist_start": 194.07730418572905,
+    "dist_end": 210.82124232604184,
+    "dist_change": 16.743938140312792
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      482,
+      186
+    ],
+    "dist_start": 112.44554237496477,
+    "dist_end": 97.41603063120755,
+    "dist_change": -15.029511743757226
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      646,
+      243
+    ],
+    "dist_start": 418.226015450976,
+    "dist_end": 429.1075009185824,
+    "dist_change": 10.88148546760641
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      360,
+      730
+    ],
+    "dist_start": 439.2095172010734,
+    "dist_end": 454.61151208257314,
+    "dist_change": 15.401994881499718
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      146,
+      196
+    ],
+    "dist_start": 531.6286297783445,
+    "dist_end": 544.6151731669187,
+    "dist_change": 12.986543388574205
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": 110.0,
+    "steps": 300,
+    "goal_pos": [
+      111,
+      447
+    ],
+    "dist_start": 352.24139450098704,
+    "dist_end": 393.3604842712372,
+    "dist_change": 41.119089770250184
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      183,
+      260
+    ],
+    "dist_start": 390.40107581818984,
+    "dist_end": 516.4556283016642,
+    "dist_change": 126.05455248347437
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      287,
+      444
+    ],
+    "dist_start": 451.6015943284523,
+    "dist_end": 446.0974772474079,
+    "dist_change": -5.504117081044399
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": 120.0,
+    "steps": 300,
+    "goal_pos": [
+      690,
+      422
+    ],
+    "dist_start": 321.27869521647403,
+    "dist_end": 289.09838830367636,
+    "dist_change": -32.180306912797676
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": 1420.0,
+    "steps": 300,
+    "goal_pos": [
+      387,
+      322
+    ],
+    "dist_start": 127.41271522104849,
+    "dist_end": 182.54961075238805,
+    "dist_change": 55.13689553133956
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      820,
+      378
+    ],
+    "dist_start": 248.08063205337092,
+    "dist_end": 250.8991026512757,
+    "dist_change": 2.818470597904792
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      337,
+      832
+    ],
+    "dist_start": 663.0067872955751,
+    "dist_end": 686.7765597899343,
+    "dist_change": 23.76977249435913
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      486,
+      126
+    ],
+    "dist_start": 685.4115551987725,
+    "dist_end": 700.7139501893201,
+    "dist_change": 15.302394990547668
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": 110.0,
+    "steps": 300,
+    "goal_pos": [
+      768,
+      780
+    ],
+    "dist_start": 29.410882339705484,
+    "dist_end": 95.87339755161061,
+    "dist_change": 66.46251521190513
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      106,
+      694
+    ],
+    "dist_start": 436.3267124529508,
+    "dist_end": 413.6123676270609,
+    "dist_change": -22.714344825889896
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": 110.0,
+    "steps": 300,
+    "goal_pos": [
+      777,
+      834
+    ],
+    "dist_start": 61.220911460055866,
+    "dist_end": 39.255621574362365,
+    "dist_change": -21.9652898856935
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      242,
+      513
+    ],
+    "dist_start": 284.93508032532606,
+    "dist_end": 288.9413534869613,
+    "dist_change": 4.006273161635249
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      281,
+      564
+    ],
+    "dist_start": 298.6452745315084,
+    "dist_end": 315.7792764532892,
+    "dist_change": 17.134001921780794
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      679,
+      342
+    ],
+    "dist_start": 348.764963836679,
+    "dist_end": 273.66429265859273,
+    "dist_change": -75.10067117808626
+  },
+  {
+    "scenario": "S4_10q3o",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": 250.0,
+    "steps": 300,
+    "goal_pos": [
+      822,
+      381
+    ],
+    "dist_start": 114.9086593777858,
+    "dist_end": 120.1499465027251,
+    "dist_change": 5.241287124939305
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": 40.0,
+    "steps": 300,
+    "goal_pos": [
+      899,
+      249
+    ],
+    "dist_start": 62.369864518050704,
+    "dist_end": 35.82043920255247,
+    "dist_change": -26.549425315498233
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      150,
+      187
+    ],
+    "dist_start": 794.6628215790645,
+    "dist_end": 728.3703725820924,
+    "dist_change": -66.2924489969721
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": 80.0,
+    "steps": 300,
+    "goal_pos": [
+      130,
+      409
+    ],
+    "dist_start": 748.7082208711215,
+    "dist_end": 736.4538297443138,
+    "dist_change": -12.254391126807718
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": 80.0,
+    "steps": 300,
+    "goal_pos": [
+      738,
+      636
+    ],
+    "dist_start": 330.57828119826627,
+    "dist_end": 280.7458615608816,
+    "dist_change": -49.832419637384646
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": 30.0,
+    "steps": 300,
+    "goal_pos": [
+      270,
+      467
+    ],
+    "dist_start": 532.3326027964096,
+    "dist_end": 500.9908184277654,
+    "dist_change": -31.34178436864414
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      739,
+      784
+    ],
+    "dist_start": 253.69272752682525,
+    "dist_end": 265.50253070221333,
+    "dist_change": 11.809803175388083
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      609,
+      857
+    ],
+    "dist_start": 326.06901110041105,
+    "dist_end": 326.7959841939342,
+    "dist_change": 0.7269730935231564
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      440,
+      870
+    ],
+    "dist_start": 363.02203789852757,
+    "dist_end": 313.92965518988086,
+    "dist_change": -49.09238270864671
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": 30.0,
+    "steps": 300,
+    "goal_pos": [
+      773,
+      227
+    ],
+    "dist_start": 423.6000472143505,
+    "dist_end": 487.7211895216783,
+    "dist_change": 64.12114230732777
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      468,
+      855
+    ],
+    "dist_start": 661.3455980045532,
+    "dist_end": 687.1448971726568,
+    "dist_change": 25.79929916810363
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      523,
+      274
+    ],
+    "dist_start": 407.87865842674336,
+    "dist_end": 378.8358796776848,
+    "dist_change": -29.042778749058584
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      226,
+      682
+    ],
+    "dist_start": 328.8662342047295,
+    "dist_end": 354.35164267886836,
+    "dist_change": 25.485408474138865
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      180,
+      473
+    ],
+    "dist_start": 691.9421941173988,
+    "dist_end": 642.1877015657413,
+    "dist_change": -49.75449255165745
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      451,
+      496
+    ],
+    "dist_start": 353.62409420173844,
+    "dist_end": 339.7922279423879,
+    "dist_change": -13.831866259350534
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      535,
+      381
+    ],
+    "dist_start": 346.46933486240886,
+    "dist_end": 356.14273176768046,
+    "dist_change": 9.673396905271602
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      324,
+      617
+    ],
+    "dist_start": 489.29541179128177,
+    "dist_end": 457.241105896613,
+    "dist_change": -32.054305894668744
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      482,
+      882
+    ],
+    "dist_start": 637.2723122810216,
+    "dist_end": 647.742629495757,
+    "dist_change": 10.47031721473536
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      771,
+      612
+    ],
+    "dist_start": 530.6006030904978,
+    "dist_end": 510.8270056800572,
+    "dist_change": -19.773597410440573
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": 100.0,
+    "steps": 300,
+    "goal_pos": [
+      776,
+      223
+    ],
+    "dist_start": 236.40854468483155,
+    "dist_end": 427.5718143058834,
+    "dist_change": 191.16326962105182
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      159,
+      673
+    ],
+    "dist_start": 458.9553355175207,
+    "dist_end": 553.5218774304659,
+    "dist_change": 94.56654191294518
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      483,
+      468
+    ],
+    "dist_start": 132.4009063413087,
+    "dist_end": 64.30471353106242,
+    "dist_change": -68.0961928102463
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      824,
+      546
+    ],
+    "dist_start": 250.4595775769016,
+    "dist_end": 315.9451601310781,
+    "dist_change": 65.48558255417652
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": 200.0,
+    "steps": 300,
+    "goal_pos": [
+      304,
+      389
+    ],
+    "dist_start": 59.20304046246274,
+    "dist_end": 266.62304050542855,
+    "dist_change": 207.4200000429658
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      418,
+      717
+    ],
+    "dist_start": 585.3170081246571,
+    "dist_end": 544.3766116883533,
+    "dist_change": -40.9403964363039
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      173,
+      291
+    ],
+    "dist_start": 501.3521716318779,
+    "dist_end": 292.62924481228174,
+    "dist_change": -208.72292681959618
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      752,
+      391
+    ],
+    "dist_start": 619.1873706722384,
+    "dist_end": 602.2518447709517,
+    "dist_change": -16.935525901286724
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      255,
+      540
+    ],
+    "dist_start": 358.5080194361069,
+    "dist_end": 497.08086856866197,
+    "dist_change": 138.57284913255506
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      576,
+      496
+    ],
+    "dist_start": 239.01464390283704,
+    "dist_end": 242.86851745860506,
+    "dist_change": 3.8538735557680184
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      591,
+      769
+    ],
+    "dist_start": 271.2489631316588,
+    "dist_end": 281.99723562159244,
+    "dist_change": 10.74827248993364
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      337,
+      500
+    ],
+    "dist_start": 349.967141314724,
+    "dist_end": 398.8710090655511,
+    "dist_change": 48.90386775082709
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      210,
+      877
+    ],
+    "dist_start": 683.2898360139715,
+    "dist_end": 710.0937238656102,
+    "dist_change": 26.803887851638706
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      709,
+      348
+    ],
+    "dist_start": 355.9129106958611,
+    "dist_end": 358.2709205335895,
+    "dist_change": 2.358009837728389
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      347,
+      631
+    ],
+    "dist_start": 423.2115310338318,
+    "dist_end": 459.372531224119,
+    "dist_change": 36.161000190287155
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      220,
+      293
+    ],
+    "dist_start": 572.2045088952026,
+    "dist_end": 482.4515831348214,
+    "dist_change": -89.75292576038117
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      368,
+      135
+    ],
+    "dist_start": 316.79646462673793,
+    "dist_end": 311.2570191315104,
+    "dist_change": -5.53944549522754
+  },
+  {
+    "scenario": "S5_3q1o1p",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      186,
+      118
+    ],
+    "dist_start": 887.7257459373362,
+    "dist_end": 895.6041998554992,
+    "dist_change": 7.878453918163018
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": 150.0,
+    "steps": 300,
+    "goal_pos": [
+      323,
+      601
+    ],
+    "dist_start": 623.6826115902222,
+    "dist_end": 717.252829417118,
+    "dist_change": 93.57021782689583
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      578,
+      221
+    ],
+    "dist_start": 212.6805115660577,
+    "dist_end": 226.2996600490365,
+    "dist_change": 13.619148482978801
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RAND",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      282,
+      636
+    ],
+    "dist_start": 498.84366288447524,
+    "dist_end": 514.2371152473195,
+    "dist_change": 15.393452362844243
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      295,
+      827
+    ],
+    "dist_start": 118.43141475132347,
+    "dist_end": 128.0172195941347,
+    "dist_change": 9.585804842811228
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      858,
+      798
+    ],
+    "dist_start": 393.45901946708506,
+    "dist_end": 347.96337096049507,
+    "dist_change": -45.49564850658999
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RAND",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": 70.0,
+    "steps": 300,
+    "goal_pos": [
+      756,
+      194
+    ],
+    "dist_start": 770.1766031242445,
+    "dist_end": 778.2600280776757,
+    "dist_change": 8.083424953431177
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      181,
+      152
+    ],
+    "dist_start": 661.0370640138116,
+    "dist_end": 586.3252345392419,
+    "dist_change": -74.71182947456964
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      753,
+      472
+    ],
+    "dist_start": 538.1821253070377,
+    "dist_end": 560.536034840233,
+    "dist_change": 22.353909533195292
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RAND",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": 140.0,
+    "steps": 300,
+    "goal_pos": [
+      521,
+      199
+    ],
+    "dist_start": 117.98728745080972,
+    "dist_end": 127.92897498950272,
+    "dist_change": 9.941687538693003
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": 60.0,
+    "steps": 300,
+    "goal_pos": [
+      523,
+      198
+    ],
+    "dist_start": 321.1790777743781,
+    "dist_end": 352.54748025039976,
+    "dist_change": 31.368402476021686
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      688,
+      710
+    ],
+    "dist_start": 561.0926839658489,
+    "dist_end": 530.3193941058157,
+    "dist_change": -30.773289860033174
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RULE_A",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      549,
+      475
+    ],
+    "dist_start": 458.3284848228397,
+    "dist_end": 458.96772176372707,
+    "dist_change": 0.6392369408873719
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      496,
+      147
+    ],
+    "dist_start": 247.92337525937324,
+    "dist_end": 244.83848084561285,
+    "dist_change": -3.084894413760395
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      252,
+      236
+    ],
+    "dist_start": 132.01893803541975,
+    "dist_end": 147.59857896121474,
+    "dist_change": 15.57964092579499
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RULE_A",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": 60.0,
+    "steps": 300,
+    "goal_pos": [
+      814,
+      162
+    ],
+    "dist_start": 623.7050585012117,
+    "dist_end": 578.5162220312678,
+    "dist_change": -45.18883646994391
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      403,
+      610
+    ],
+    "dist_start": 183.6327857437228,
+    "dist_end": 173.15621169816356,
+    "dist_change": -10.476574045559232
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      669,
+      726
+    ],
+    "dist_start": 656.269761607222,
+    "dist_end": 656.5012339185554,
+    "dist_change": 0.2314723113333912
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_RULE_A",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      388,
+      149
+    ],
+    "dist_start": 481.8640887221209,
+    "dist_end": 497.86964748300363,
+    "dist_change": 16.005558760882707
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      612,
+      650
+    ],
+    "dist_start": 264.0,
+    "dist_end": 277.8456104656829,
+    "dist_change": 13.84561046568291
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": 70.0,
+    "steps": 300,
+    "goal_pos": [
+      369,
+      364
+    ],
+    "dist_start": 292.5149568825499,
+    "dist_end": 353.244524133911,
+    "dist_change": 60.72956725136112
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_SINGLE",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      892,
+      465
+    ],
+    "dist_start": 234.03418553707064,
+    "dist_end": 214.74340048940005,
+    "dist_change": -19.290785047670596
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      462,
+      331
+    ],
+    "dist_start": 429.2842880889074,
+    "dist_end": 422.17492686320196,
+    "dist_change": -7.109361225705413
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      327,
+      707
+    ],
+    "dist_start": 470.17656258048424,
+    "dist_end": 296.9524069032084,
+    "dist_change": -173.22415567727586
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_SINGLE",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      837,
+      449
+    ],
+    "dist_start": 532.2405471213181,
+    "dist_end": 547.579665974867,
+    "dist_change": 15.33911885354894
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      277,
+      171
+    ],
+    "dist_start": 306.36579443534487,
+    "dist_end": 306.9229009376075,
+    "dist_change": 0.5571065022626271
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": 70.0,
+    "steps": 300,
+    "goal_pos": [
+      560,
+      870
+    ],
+    "dist_start": 441.86083782114025,
+    "dist_end": 318.0689257947333,
+    "dist_change": -123.79191202640698
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_SINGLE",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      631,
+      646
+    ],
+    "dist_start": 547.6906060907015,
+    "dist_end": 542.6680806204677,
+    "dist_change": -5.022525470233859
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 0,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      315,
+      298
+    ],
+    "dist_start": 581.9080683406959,
+    "dist_end": 588.7170560774395,
+    "dist_change": 6.808987736743575
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      337,
+      897
+    ],
+    "dist_start": 504.9059318328514,
+    "dist_end": 522.3696095309053,
+    "dist_change": 17.463677698053914
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_DEGRADED",
+    "seed": 42,
+    "repeat": 2,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      668,
+      453
+    ],
+    "dist_start": 195.0230755577401,
+    "dist_end": 205.75754600207674,
+    "dist_change": 10.734470444336637
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      638,
+      713
+    ],
+    "dist_start": 493.0162269134759,
+    "dist_end": 539.2467617732799,
+    "dist_change": 46.23053485980398
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 1,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      726,
+      198
+    ],
+    "dist_start": 457.28000174947516,
+    "dist_end": 523.4871726200488,
+    "dist_change": 66.20717087057363
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_DEGRADED",
+    "seed": 123,
+    "repeat": 2,
+    "total_reward": 140.0,
+    "steps": 300,
+    "goal_pos": [
+      286,
+      124
+    ],
+    "dist_start": 95.63472172804185,
+    "dist_end": 109.61649846720849,
+    "dist_change": 13.981776739166634
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 0,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      738,
+      114
+    ],
+    "dist_start": 367.6098475285993,
+    "dist_end": 355.7788935810636,
+    "dist_change": -11.830953947535704
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 1,
+    "total_reward": -20.0,
+    "steps": 300,
+    "goal_pos": [
+      566,
+      516
+    ],
+    "dist_start": 396.3357162810336,
+    "dist_end": 403.3452525821886,
+    "dist_change": 7.009536301154981
+  },
+  {
+    "scenario": "S6_5q2o1p",
+    "policy": "P_DEGRADED",
+    "seed": 456,
+    "repeat": 2,
+    "total_reward": -10.0,
+    "steps": 300,
+    "goal_pos": [
+      824,
+      254
+    ],
+    "dist_start": 223.3047245357787,
+    "dist_end": 221.45267497619375,
+    "dist_change": -1.852049559584941
+  }
+]
