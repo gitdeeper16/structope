@@ -34,3 +34,4 @@ upload_*.py
 secrets/
 .env.local
 .pypirc
+REVIEW/GAP_REGISTER.md
