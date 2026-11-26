@@ -1,0 +1,3 @@
+[submodule "external/hemac"]
+	path = external/hemac
+	url = https://github.com/ThalesGroup/hemac.git
